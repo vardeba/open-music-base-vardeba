@@ -1,0 +1,83 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: var(--width-cards);
+    height: var(--height-cards);
+    border-radius: var(--radius-1);
+}
+
+.img-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: var(--radius-1) var(--radius-1) 0 0;
+}
+
+.img-album {
+    width: 100%;
+    border-radius: var(--radius-1) var(--radius-1) 0 0;
+    transition: 0.3s ease; 
+}
+
+.img-album:hover {
+    transform: scale(1.2);
+
+}
+
+.album-data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding: var(--padding-cards);
+    background-color: var(--color-grey-8);
+}
+
+.album-data:hover {
+    background-color: var(--color-grey-7);
+}
+
+.band-year {
+    width: 100%;
+    display: flex;
+    gap: 1.25rem;
+}
+
+.band, .year {
+    font: var(--font-4);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-3);
+    color: var(--color-grey-2);
+}
+
+.album-title {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-2) ;
+    color: var(--color-grey-1);
+}
+
+.price-buy {
+    color: var(--color-grey-1);
+    font-weight: var(--font-weight-2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+}
+
+.album-price {
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-2);
+    color: var(--color-grey-2);
+}
+
+
+
+
+
+
+
+
+
+

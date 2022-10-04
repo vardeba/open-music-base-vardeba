@@ -1,0 +1,99 @@
+.mode-switch {
+    width: 2.25rem;
+    height: 2.25rem;
+    background-color: var(--color-grey-8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-2);
+    cursor: pointer;
+}
+
+.mode-switch:hover {
+    background-color: var(--color-grey-7);
+}
+
+.light-icon {
+    background-image: url(../assets/img/moon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dark-icon {
+    background-image: url(../assets/img/sun.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.buy-button {
+    height: 2rem;
+    color:var(--color-grey-2);
+    background-color: var(--color-grey-7);
+    border: none;
+    border-radius: var(--radius-1);
+    padding: var(--padding-buy-button);
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-2);
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: var(--color-grey-6);
+}
+
+.genre-outline {
+    height: 2rem;
+    color:var(--color-grey-2);
+    background-color: var(--color-grey-7);
+    border: none;
+    border-radius: var(--radius-1);
+    padding: var(--padding-buy-button);
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-2);
+    cursor: pointer;
+}
+
+.genre-outline:hover {
+    background-color: var(--color-grey-8);
+}
+
+.genre-outline-active {
+    height: 2rem;
+    color:var(--color-grey-8);
+    background-color: var(--color-grey-1);
+    border: none;
+    border-radius: var(--radius-1);
+    padding: var(--padding-buy-button);
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-2);
+    border: 0.0625rem solid var(--color-grey-0);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
