@@ -1,1 +1,3 @@
-/* Desenvolva sua lógica aqui ... */
+function handleDarkMode(){
+    const darkModeButton = document.querySelector('.mode-switch')
+}

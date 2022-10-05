@@ -19,27 +19,27 @@
       <section class="filter-section">
         <h2>Gênero Musical</h2>
         <ul class="genres-list">
-          <li class="genre-button">
+          <!-- <li class="genre-button">
             <button class="genre genre-outline-active">Todos</button>
           </li>
           <li class="genre-button">
             <button class="genre genre-outline">Pop</button>
-          </li>
+          </li> -->
         </ul>
       </section>
 
       <section class="price-filter-section">
         <div class="price-filter-div">
           <h2 class="price-filter-title">Definir preço</h2>
-          <h2 class="price-filter">Até R$ 0,00</h2>
+          <h2 class="price-filter">Até R$ 100</h2>
         </div>
-        <input class="price-filter-input" type="range" name="priceRange" id="priceRange">
+        <input class="price-filter-input" type="range" name="priceRange" id="priceRange" min="0" max="100" value="100" step="1">
       </section>
 
       <section class="albuns">
         <h2>Albuns Encontrados</h2>
         <ul class="card-list">
-          <li class="card">
+          <!-- <li class="card">
             <figure class="img-container">
               <img class="img-album" src="../../assets/img/1.jpg" alt="Magnetite">
             </figure>
@@ -54,23 +54,17 @@
                 <button class="buy-button">Comprar</button>
               </div>
             </div>
-          </li>
+          </li> -->
         </ul>
       </section>
 
     </main>
 
-
-
-
-
-
-
-
-
-
     <script src="../../scripts/theme.js"></script>
-    <script src="productsData.js"></script>
-    <script src="index.js"></script>
+    <script src="./productsData.js"></script>
+    <script src="../../scripts/cards.js"></script>
+    <script src="../../scripts/category.js"></script>
+    <script src="./index.js"></script>
+    <script src="../../scripts/filters.js"></script>
   </body>
 </html>

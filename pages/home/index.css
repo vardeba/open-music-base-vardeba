@@ -18,7 +18,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 3.75rem;
-    margin-top: 3.875rem;
+    margin: 3.875rem 0;
 }
 
 .filter-section {
@@ -78,7 +78,11 @@ main {
     margin-bottom: 3.75rem;
 }
 
-
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5625rem;
+}
 
 
 
