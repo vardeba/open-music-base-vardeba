@@ -13,21 +13,14 @@
   <body class="container">
     <header>
       <h1>open music</h1>
-      <span class="mode-switch light-icon"></span>
+      <span id="darkMode" class="mode-switch light-icon"></span>
     </header>
     <main>
       <section class="filter-section">
         <h2>Gênero Musical</h2>
         <ul class="genres-list">
-          <!-- <li class="genre-button">
-            <button class="genre genre-outline-active">Todos</button>
-          </li>
-          <li class="genre-button">
-            <button class="genre genre-outline">Pop</button>
-          </li> -->
         </ul>
       </section>
-
       <section class="price-filter-section">
         <div class="price-filter-div">
           <h2 class="price-filter-title">Definir preço</h2>
@@ -35,36 +28,17 @@
         </div>
         <input class="price-filter-input" type="range" name="priceRange" id="priceRange" min="0" max="100" value="100" step="1">
       </section>
-
       <section class="albuns">
         <h2>Albuns Encontrados</h2>
         <ul class="card-list">
-          <!-- <li class="card">
-            <figure class="img-container">
-              <img class="img-album" src="../../assets/img/1.jpg" alt="Magnetite">
-            </figure>
-            <div class="album-data">
-              <div class="band-year">
-                <span class="band">Scalene</span>
-                <span class="year">2017</span>
-              </div>
-              <h2 class="album-title">Magnetite</h2>
-              <div class="price-buy">
-                <h2 class="album-price">R$ 70,00</h2>
-                <button class="buy-button">Comprar</button>
-              </div>
-            </div>
-          </li> -->
         </ul>
       </section>
-
     </main>
-
-    <script src="../../scripts/theme.js"></script>
     <script src="./productsData.js"></script>
     <script src="../../scripts/cards.js"></script>
     <script src="../../scripts/category.js"></script>
     <script src="./index.js"></script>
     <script src="../../scripts/filters.js"></script>
+    <script src="../../scripts/theme.js"></script>
   </body>
 </html>
